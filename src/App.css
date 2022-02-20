@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
+
+.sub-container {
+  width: 54%;
+  margin: 1%;
+  position: relative;
+}
+
+.search-container {
+display: flex;
+width: 100%;
+position: sticky;
+top: 44px;
+background-color: white;
+z-index:1;
+margin-top: 2px;
+  padding: 5px 0 5px 0;
+  border: 1px solid #0000005c;
+}
+
+.search-bar {
+  display: flex;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 23%;
+}
+
+.search-button {
+display: flex;
+margin-left: 7px;
+    height: 33px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-detail {
+  display: flex;
+  flex-direction: column;
+  margin-right: 18px;
+}
+
+.input-box{
+  padding: 7px;
+  width: 14rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  
+}
+
+.card-preview {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  background: white;
+  border-radius: 4px;
+  padding: 10px 10px 5px 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid #0000005c;
+}
+
+.favourite {
+  display: flex;
+ margin-left: 10px;
+}
+
+.expand {
+  display: flex;
+  width: 69px;
+}
+
+.card-buttons {
+  display: flex;
+}
+
+.tab{
+  /* z-index: 10; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #282c34;
+  justify-content: center;
+  font-weight: bold;
+  background-color: white;
+  height: 43px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index:1;
+  border: 1px solid #0000005c;
+}
+
+.tab-con {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  color: gray;
+}
+
+.tab-con-active {
+  border-bottom: 1.5px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  color: black;
+}
+
+.center {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row{
+  display: flex;
+}
+
+.name{
+  font-weight: bold;
+  font-size: large;
+}
+
+.relative {
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  right: 5px;
+}
+
+.color-blue{
+  color: #00b9f2;
+  cursor: pointer;
+}
+
+.search-box {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.desc {
+  padding: 6px 0 16px 0;
+}
+
+.mar-left-10 {
+  margin-left: 10px;
+}
+
+.mar-left-2{
+  margin-left: 2px;
+}
+
+.detail-val {
+font-size: 18px;
+}
+
+.detail-item {
+font-size: 10px;
+font-weight: 600px;
+}
+
+.detail-container {
+  border-top: 1px solid rgba(177, 177, 177, 0.507);
+  margin: 2px 0 0px 0;
+  padding: 7px 0 7px 0;
+}
+
+.text {
+  cursor: pointer;
+}
